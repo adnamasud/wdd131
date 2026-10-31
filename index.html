@@ -1,14 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <title>WDD 131 - Fundamentos da Web Dinâmica - Amanda de Souza Silva</title>
+    <meta name="description"
+        content="Página criada para disciplina WDD 131 - Fundamentos da web dinâmica, e informações pessoais.">
+    <meta name="author" content="Amanda de Souza Silva">
+    <link rel="stylesheet" href="estilos/base.css">
+    <script src="scripts/obterdatas.js" defer></script>
 </head>
 
 <body>
-    <h1>WDD 131</h1>
+    <header>
+        <span id="titulo-curso">
+            <p>WDD131 - Fundamentos da Web Dinâmica</p>
+        </span>
+        <nav>
+            <a href="#">Linkedin</a>
+            <a href="#">Canvas</a>
+            <a href="#">Escritura Favorita</a>
+            <a href="#">Projeto Final</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Amanda de Souza Silva</h1>
+        <section class="card">
+            <h2>Sobre Mim</h2>
+            <div class="sobre-mim-conteudo">
+                <p>Olá! Meu nome é Amanda, sou casada e mãe de um menino de dois anos. Atualmente, sou estudante da
+                    BYU-Pathway Worldwide,
+                    onde estudo Desenvolvimento de Software. Tenho experiência nas áreas de administração, vendas e gestão,
+                    e estou sempre
+                    buscando aprender coisas novas e desenvolver minhas habilidades. Sou uma pessoa dedicada, curiosa e
+                    gosto de desafios.
+                    Meu objetivo é crescer profissionalmente, conquistar novas oportunidades e construir um futuro melhor
+                    para minha
+                    família.
+                </p>
+                <img src="imagens/perfil.jpg" alt="Imagem de perfil Amanda Silva">
+            </div>
+            <h2 class="titulo-cidade">Marabá, Pará, Brasil</h2>
+            <hr> 
+            <div class="cidade-conteudo">
+                <figure>
+                    <img src="imagens/orla-maraba.jpg" alt="Orla de Marabá-PA">
+                    <figcaption>Orla de Marabá</figcaption>
+                </figure>
+                <p>Marabá, localizada no sudeste do Pará, é uma cidade de grande importância para a região Norte do Brasil.
+                    Conhecida pelo
+                    encontro dos rios Tocantins e Itacaiúnas, encanta por suas belezas naturais, sua diversidade cultural e
+                    seu povo
+                    acolhedor. A cidade possui uma economia diversificada, com destaque para o comércio, a indústria e a
+                    mineração. Além
+                    disso, sua culinária.
+                    
+                </p>
+            </div>
+        </section>
+        <section class="card">
+            <h2>Recursos Web Dev</h2>
+            <ul>
+                <li><a href="#">Recurso 1</a></li>
+                <li><a href="#">Recurso 2</a></li>
+                <li><a href="#">Recurso 3</a></li>
+                <li><a href="#">Recurso 4</a></li>
+                <li><a href="#">Recurso 5</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>© <span id="anoatual"></span> Amanda de Souza Silva - Pará, Brasil</p>
+        <p id="ultimaModificacao"></p>
+    </footer>
 </body>
 
 </html>
