@@ -1,0 +1,15 @@
+@media screen and (min-width: 640px) {
+    .templo-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .templo-grid h1 {
+        grid-column: 1 / -1;
+    }
+    .menu-toggle {
+        display: none;
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+    }
+}
