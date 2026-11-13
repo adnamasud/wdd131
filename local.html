@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubra Brasil | WDD 131</title>
+    <meta name="description"
+        content="Conheça o Brasil, sua localização, população, caracteristicas geográficas e informações sobre clima.">
+    <meta name="author" content="Amanda de Souza Silva">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/local.css">
+    <script src="scripts/local.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Brasil</h1>
+    </header>
+    <main>
+        <div class="conteudo-principal">
+            <picture>
+                <source srcset="imagens/brasil-mobile.webp" media="(max-width:600px)">
+                <img src="imagens/brasil.webp" alt="Cristo Redentor">
+            </picture>
+            <section class="dados">
+                
+                <h2>Dados</h2>
+
+                <p class="dado">Área:</p>
+                <p class="valor">8.509.360,850</p>
+
+                <p class="dado">População:</p>
+                <p class="valor">213.421.037 habitantes (estimativa de 2025)</p>
+
+                <p class="dado">Capital:</p>
+                <p class="valor">Brasília</p>
+
+                <p class="dado">Idiomas:</p>
+                <p class="valor">Português</p>
+
+                <p class="dado">Moeda:</p>
+                <p class="valor">Real(R$)</p>
+
+                <p class="dado">Fuso horário:</p>
+                <p class="valor">UTC-2 a UTC-5 (quatro fuso horários)</p>
+
+                <p class="dado">Código telefônico:</p>
+                <p class="valor">+55</p>
+
+                <p class="dado">Domínio de internet:</p>
+                <p class="valor">.br</p>
+            </section>
+
+            <section class="clima">
+                <h2>
+                    <img src="imagens/sol.svg" alt="simbolo sol"> Clima
+                </h2>
+
+                <p>Temperatura: 22°C</p>
+                <p>Condições: Tropical, com estação chuvosa e estação seca.</p>
+                <p>Velocidade do vento: 13km/h (média aproximada)</p>
+
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>© <span id="anoatual"></span>❤ Amanda de Souza Silva ❤ Brasil</p>
+        <p id="ultimaModificacao"></p>
+    </footer>
+</body>
+
+</html>

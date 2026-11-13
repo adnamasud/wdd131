@@ -1,0 +1,144 @@
+:root {
+    --cor1: #008000;
+    --cor2: #ffff00;
+    --cor3: #0000ff;
+    --cor-texto: #222222;
+    --cor4: #fff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'roboto', sans-serif;
+    color: var(--cor-texto);
+    background-color: var(--cor4);
+    margin: 0;
+    line-height: 1.5;
+}
+
+main,
+footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+header {
+    max-width: 100%;
+    background-color: var(--cor1);
+    color: var(--cor4);
+    text-align: center;
+    padding: 2px;
+    margin: 0;
+}
+
+footer {
+    background-color: var(--cor1);
+    color: var(--cor4);
+    text-align: center;
+    padding: 1rem;
+    max-width: 100%;
+}
+
+.dado {
+    font-weight: bold;
+    color: var(--cor1);
+    margin-bottom: 4px;
+}
+
+.valor {
+    color: var(--cor-texto);
+    margin-bottom: 8px;
+}
+
+.clima {
+    margin-top: 1rem;
+}
+
+.clima h2 img {
+    display: inline;
+    width: 24px;
+    margin-right: 8px;
+}
+
+@media (min-width: 600px) {
+
+    .clima h2::after {
+        content: " 🌞";
+    }
+
+    .clima h2 img {
+        display: none;
+    }
+
+    body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main {
+        max-width: 100%;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        flex: 1;
+    }
+
+    .conteudo-principal {
+        position: relative;
+        width: 100%;
+    }
+
+    .conteudo-principal picture {
+        display: block;
+    }
+
+    .conteudo-principal picture img {
+        width: 100%;
+        height: auto;
+        object-fit: initial;
+    }
+
+    .dados,
+    .clima {
+        position: absolute;
+        top: 2rem;
+        width: 20%;
+        background-color: var(--cor4);
+        padding: 1rem;
+        z-index: 1;
+    }
+
+    .dados {
+        left: 2rem;
+    }
+
+    .clima {
+        right: 2rem;
+    }
+
+    .dados p,
+    .clima p {
+        margin: 0.4rem 0;
+        font-size: 0.85rem;
+    }
+
+    footer {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        flex-shrink: 0;
+    }
+    header, footer {
+        flex-shrink: 0;
+    }
+}
