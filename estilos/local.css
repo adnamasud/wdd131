@@ -1,7 +1,5 @@
 :root {
     --cor1: #008000;
-    --cor2: #ffff00;
-    --cor3: #0000ff;
     --cor-texto: #222222;
     --cor4: #fff;
 }
@@ -22,7 +20,7 @@ main,
 footer {
     max-width: 1200px;
     margin: 0 auto;
-    text-align: center
+    text-align: center;
 }
 
 img {

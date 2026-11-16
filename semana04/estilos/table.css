@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    padding: 1rem;
+    width: 80%;
+    margin: 0 auto 0;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+table {
+    border-collapse: collapse;
+}
+.empresa {
+    background-color: aqua;
+}
+
+tbody tr:nth-child(2) {
+    background-color: aliceblue;
+}
+.titulos {
+    background-color: cornflowerblue;
+}
