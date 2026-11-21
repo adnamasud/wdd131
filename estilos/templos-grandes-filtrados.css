@@ -1,0 +1,36 @@
+@media screen and (min-width: 640px) {
+    .templo-grid {
+    }
+    .templo-grid h1 {
+        grid-column: 1 / -1;
+    }
+    .menu-toggle {
+        display: none;
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+    }
+    .res-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 15px;
+        
+    }
+    figure {
+        max-width: 80%;
+
+    }
+    figure img {
+        width: 100%;
+        aspect-ratio: 1 / 1; 
+        height: auto;
+        object-fit: cover;
+        align-items: center;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }
+
+}

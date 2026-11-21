@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+img {
+    display: block;
+    margin: auto;
+    align-items: center;
+    max-width: 100%;
+    animation: aparecer 2s ease-in;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
