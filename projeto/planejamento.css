@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: 'roboto';
+    color: #1c1c1c;
+    background-color: #ffffff;
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    color: #b22222;
+    margin-bottom: 0;
+}
+
+h2, h3 {
+    color: #b22222;
+    text-align: center;
+}
+.logo {
+    width: 180px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+header {
+    padding: 1rem;
+    border-bottom: 1px solid #b22222;
+    max-width: 900px;
+    margin: 0 auto;
+    
+}
+header p{
+    margin-bottom: 0;
+}
+main {
+    padding: 1rem;
+}
+section {
+    padding: 0;
+    border-bottom: 1px solid #b22222;
+    max-width: 900px;
+    margin: 0 auto 1rem;
+}
+.visualiza {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    
+}
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+footer { 
+    text-align: center;
+    color: #ffffff;
+    background-color: #1c1c1c;
+    padding: 12px;
+    max-width: 100%;
+    font-size: 14px;
+}
+@media (min-width: 640px) {
+    .visualiza {
+        gap: 500px;
+    }
+}
